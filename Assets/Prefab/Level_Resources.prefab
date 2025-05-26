@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1292588450520201}
+  m_IsPrefabParent: 1
+--- !u!1 &1292588450520201
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4241703480863533}
+  - component: {fileID: 114739396107447072}
+  m_Layer: 0
+  m_Name: Level_Resources
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4241703480863533
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1292588450520201}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1399, y: -1262, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114739396107447072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1292588450520201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c70f5f275aaf02e06b8e1f68b8da97aa, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  levelHUD: {fileID: 114226268636291681, guid: 8d953ef28cb839648b126e3a9c2f6448, type: 2}
+  levelGUI: {fileID: 114586751459003721, guid: 00897f8464dab8448ad9d0d67c757859, type: 2}
+  levelAudio: {fileID: 114105339845052218, guid: a213c0fbab1804149a696ccee4404fdc, type: 2}
+  levelBossDeathExplosion: {fileID: 114408254568186204, guid: 6b9c666f9ac52cd48afc97efc22dbfe9, type: 2}
+  levelPlayer: {fileID: 114324626053331958, guid: e8d205cee8c02044781a5080eef8cdb1, type: 2}
+  planePlayer: {fileID: 114671732247336267, guid: c5141973898042743b8c301967e49b97, type: 2}
+  joinEffect: {fileID: 114054243992144945, guid: 050710314f5a8bd42b7c289ba1e69345, type: 2}
+  platformingIntro: {fileID: 114683153254217399, guid: f3a95960158495641a101b7bac8de9f7, type: 2}
+  platformingWin: {fileID: 114525783533261462, guid: 3753039c51d6f6040b9ca990e2d8e846, type: 2}
+  levelIntro: {fileID: 114943407117852980, guid: 90d1a2d9ab93cd84d8587e1042633720, type: 2}
+  levelKO: {fileID: 114789495422700208, guid: b7e3aaaad8ed2a7469ad36829c1e0e43, type: 2}
+  levelUIInteractionDialogue: {fileID: 114374098992721479, guid: ae5f859ff59c42846814e3407f5cdc1b, type: 2}

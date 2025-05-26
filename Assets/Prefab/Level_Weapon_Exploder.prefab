@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1645806779937160}
+  m_IsPrefabParent: 1
+--- !u!1 &1645806779937160
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4862164507998746}
+  - component: {fileID: 114113643267412155}
+  m_Layer: 0
+  m_Name: Level_Weapon_Exploder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4862164507998746
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1645806779937160}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -220.1237, y: -486.14365, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114113643267412155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1645806779937160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 349c57b7c0d51678ceff8a038367a037, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  exPrefab: {fileID: 114091984291122470, guid: a03f4a9fe690cf64e9402c71553b6c54, type: 2}
+  exEffectPrefab: {fileID: 114945308378638690, guid: 72a55f994f0942346af9aa0497bb72ba, type: 2}
+  exFiringHitboxPrefab: {fileID: 0}
+  basicPrefab: {fileID: 114005188654343775, guid: 3f5b59d6c83605d45a449a02a38c46d9, type: 2}
+  basicEffectPrefab: {fileID: 114486668873070263, guid: 5f094b117f7b689479bfb9070c1035ad, type: 2}
+  basicFiringHitboxPrefab: {fileID: 114754274687679145, guid: 9ebdda2c3ecf4884080fafb861b3a432, type: 2}
+  projectilesOnGround: []

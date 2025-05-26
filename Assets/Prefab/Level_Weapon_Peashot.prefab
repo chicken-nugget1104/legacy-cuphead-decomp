@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1817080772614691}
+  m_IsPrefabParent: 1
+--- !u!1 &1817080772614691
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4963087682897741}
+  - component: {fileID: 114396295363182887}
+  m_Layer: 0
+  m_Name: Level_Weapon_Peashot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4963087682897741
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1817080772614691}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114396295363182887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1817080772614691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 010ed98d6032be080edd3058a2fcff6d, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  exPrefab: {fileID: 114899410621917380, guid: 88cc220de73f12640ac812bd1e75356e, type: 2}
+  exEffectPrefab: {fileID: 114945308378638690, guid: 72a55f994f0942346af9aa0497bb72ba, type: 2}
+  exFiringHitboxPrefab: {fileID: 0}
+  basicPrefab: {fileID: 114799921041920503, guid: 9b787126e3f2bcb4eaa0808c3482d09f, type: 2}
+  basicEffectPrefab: {fileID: 114486668873070263, guid: 5f094b117f7b689479bfb9070c1035ad, type: 2}
+  basicFiringHitboxPrefab: {fileID: 114754274687679145, guid: 9ebdda2c3ecf4884080fafb861b3a432, type: 2}

@@ -1,0 +1,221 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: anim_level_sally_kiss
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -335.6413, y: -2.0849838, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 2515.6956, y: 997.0198, z: 0}
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: {x: -126, y: 81, z: 0}
+        inSlope: {x: 1149.8478, y: 312.50986, z: 0}
+        outSlope: {x: 1149.8478, y: 312.5099, z: 0}
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.33333334
+        value: {x: -180, y: -12, z: 0}
+        inSlope: {x: -216, y: -372, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: SpawnPoint
+  m_ScaleCurves: []
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9166667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Offset.x
+    path:
+    classID: 61
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 80
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9166667
+        value: 80
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Size.x
+    path:
+    classID: 61
+    script: {fileID: 0}
+  m_PPtrCurves:
+  - curve:
+    - time: 0
+      value: {fileID: 21300000, guid: 04e0ef6b644aa3e4e9b8d681e53cb06c, type: 2}
+    - time: 0.041666668
+      value: {fileID: 21300000, guid: 9aaceffecec47144cbf89093b3dd422c, type: 2}
+    - time: 0.083333336
+      value: {fileID: 21300000, guid: b2e73f638e30cb447997a4321290590a, type: 2}
+    - time: 0.20833333
+      value: {fileID: 21300000, guid: 19530136b9ba5764481d3f1eb7b09d68, type: 2}
+    - time: 0.25
+      value: {fileID: 21300000, guid: c659f40aa9e790a4b9e98a66f734d48f, type: 2}
+    - time: 0.29166666
+      value: {fileID: 21300000, guid: 4cca5f583b3d06642a2133fcf587337f, type: 2}
+    - time: 0.33333334
+      value: {fileID: 21300000, guid: 0953384d7ecd2684aa66c2a8cc26d61e, type: 2}
+    - time: 0.375
+      value: {fileID: 21300000, guid: 3fa42213a89270f4faffb3a15d589574, type: 2}
+    - time: 0.41666666
+      value: {fileID: 21300000, guid: 269ac06e46f84374f80b456aa611df46, type: 2}
+    - time: 0.45833334
+      value: {fileID: 21300000, guid: 5e8f72ad8dbd48944950bed8e7a5ec50, type: 2}
+    - time: 0.625
+      value: {fileID: 21300000, guid: 6113817827abec1448fc48230e5011bf, type: 2}
+    - time: 0.6666667
+      value: {fileID: 21300000, guid: 65aa1d1f9084e314b826c1682539ef59, type: 2}
+    - time: 0.7083333
+      value: {fileID: 21300000, guid: 12818b430d4ec1e4c85f0ab9dd7c59af, type: 2}
+    - time: 0.75
+      value: {fileID: 21300000, guid: b5c7659a6b860474fa58525f14e0e1c3, type: 2}
+    - time: 0.7916667
+      value: {fileID: 21300000, guid: 31c50df89570d4f4ab7869d5192e645c, type: 2}
+    attribute: m_Sprite
+    path:
+    classID: 212
+    script: {fileID: 0}
+  m_SampleRate: 24
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - serializedVersion: 2
+      path: 4131167615
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 0
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
+    - serializedVersion: 2
+      path: 0
+      attribute: 413499720
+      script: {fileID: 0}
+      typeID: 61
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 0
+      attribute: 4197328169
+      script: {fileID: 0}
+      typeID: 61
+      customType: 0
+      isPPtrCurve: 0
+    pptrCurveMapping:
+    - {fileID: 21300000, guid: 04e0ef6b644aa3e4e9b8d681e53cb06c, type: 2}
+    - {fileID: 21300000, guid: 9aaceffecec47144cbf89093b3dd422c, type: 2}
+    - {fileID: 21300000, guid: b2e73f638e30cb447997a4321290590a, type: 2}
+    - {fileID: 21300000, guid: 19530136b9ba5764481d3f1eb7b09d68, type: 2}
+    - {fileID: 21300000, guid: c659f40aa9e790a4b9e98a66f734d48f, type: 2}
+    - {fileID: 21300000, guid: 4cca5f583b3d06642a2133fcf587337f, type: 2}
+    - {fileID: 21300000, guid: 0953384d7ecd2684aa66c2a8cc26d61e, type: 2}
+    - {fileID: 21300000, guid: 3fa42213a89270f4faffb3a15d589574, type: 2}
+    - {fileID: 21300000, guid: 269ac06e46f84374f80b456aa611df46, type: 2}
+    - {fileID: 21300000, guid: 5e8f72ad8dbd48944950bed8e7a5ec50, type: 2}
+    - {fileID: 21300000, guid: 6113817827abec1448fc48230e5011bf, type: 2}
+    - {fileID: 21300000, guid: 65aa1d1f9084e314b826c1682539ef59, type: 2}
+    - {fileID: 21300000, guid: 12818b430d4ec1e4c85f0ab9dd7c59af, type: 2}
+    - {fileID: 21300000, guid: b5c7659a6b860474fa58525f14e0e1c3, type: 2}
+    - {fileID: 21300000, guid: 31c50df89570d4f4ab7869d5192e645c, type: 2}
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 0.8333334
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 1
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
+  m_Events:
+  - time: 0
+    functionName: KissSFX
+    data:
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0
+    functionName: SoundSallyVoxAttackMmmYoh
+    data:
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.33333334
+    functionName: SpawnHeart
+    data:
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

@@ -1,0 +1,265 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a391c456a0797b359571f56a4dd19bba, type: 3}
+  m_Name: img_text_icons
+  m_EditorClassIdentifier:
+  hashCode: 1895024966
+  material: {fileID: 2100000, guid: 41e0d6c35523ea641a64ade8529ea848, type: 2}
+  materialHashCode: 0
+  spriteSheet: {fileID: 2800000, guid: c8801a734c049254eab07f37a38de215, type: 3}
+  spriteInfoList:
+  - id: 0
+    x: 0
+    y: 288
+    width: 32
+    height: 32
+    xOffset: 0
+    yOffset: 30
+    xAdvance: 32
+    name: img_text_icons_0
+    hashCode: 2097888585
+    pivot: {x: 0, y: 32}
+    scale: 1
+    sprite: {fileID: 21300000, guid: 83bea4e6e27842f40afbc3bb13aadd42, type: 2}
+  - id: 1
+    x: 32
+    y: 288
+    width: 32
+    height: 32
+    xOffset: 0
+    yOffset: 30
+    xAdvance: 32
+    name: img_text_icons_1
+    hashCode: 2097888584
+    pivot: {x: 0, y: 32}
+    scale: 1
+    sprite: {fileID: 21300000, guid: 6f883296ae8d34f4388353fe9dd43073, type: 2}
+  - id: 2
+    x: 0
+    y: 256
+    width: 32
+    height: 32
+    xOffset: 0
+    yOffset: 30
+    xAdvance: 32
+    name: img_text_icons_2
+    hashCode: 2097888587
+    pivot: {x: 0, y: 32}
+    scale: 1
+    sprite: {fileID: 21300000, guid: 068baa6e9e49a624ab840a1d6c4e69e7, type: 2}
+  - id: 3
+    x: 32
+    y: 256
+    width: 32
+    height: 32
+    xOffset: 0
+    yOffset: 30
+    xAdvance: 32
+    name: img_text_icons_3
+    hashCode: 2097888586
+    pivot: {x: 0, y: 32}
+    scale: 1
+    sprite: {fileID: 21300000, guid: ce6558b2f67fb9f4897657e64debdc36, type: 2}
+  - id: 4
+    x: 0
+    y: 224
+    width: 32
+    height: 32
+    xOffset: 0
+    yOffset: 30
+    xAdvance: 32
+    name: img_text_icons_4
+    hashCode: 2097888589
+    pivot: {x: 0, y: 32}
+    scale: 1
+    sprite: {fileID: 21300000, guid: 875956cd718fd9b4b9c0941bc5771799, type: 2}
+  - id: 5
+    x: 32
+    y: 224
+    width: 32
+    height: 32
+    xOffset: 0
+    yOffset: 30
+    xAdvance: 32
+    name: img_text_icons_5
+    hashCode: 2097888588
+    pivot: {x: 0, y: 32}
+    scale: 1
+    sprite: {fileID: 21300000, guid: ea7965aa7da91d94ba5f00001272a3a6, type: 2}
+  - id: 6
+    x: 0
+    y: 192
+    width: 32
+    height: 32
+    xOffset: 0
+    yOffset: 30
+    xAdvance: 32
+    name: img_text_icons_6
+    hashCode: 2097888591
+    pivot: {x: 0, y: 32}
+    scale: 1
+    sprite: {fileID: 21300000, guid: 681bd6e6f8a5f0c41b43884da024e088, type: 2}
+  - id: 7
+    x: 32
+    y: 192
+    width: 32
+    height: 32
+    xOffset: 0
+    yOffset: 30
+    xAdvance: 32
+    name: img_text_icons_7
+    hashCode: 2097888590
+    pivot: {x: 0, y: 32}
+    scale: 1
+    sprite: {fileID: 21300000, guid: 1b061975ee3471749848123b1b007608, type: 2}
+  - id: 8
+    x: 4
+    y: 160
+    width: 20
+    height: 32
+    xOffset: 0
+    yOffset: 29
+    xAdvance: 22
+    name: img_text_icons_8
+    hashCode: 2097888577
+    pivot: {x: 0, y: 32}
+    scale: 1
+    sprite: {fileID: 21300000, guid: 26ac4f6af76785e41a972b00707f6a1d, type: 2}
+  - id: 9
+    x: 0
+    y: 128
+    width: 32
+    height: 32
+    xOffset: 0
+    yOffset: 30
+    xAdvance: 32
+    name: img_text_icons_9
+    hashCode: 2097888576
+    pivot: {x: 0, y: 32}
+    scale: 1
+    sprite: {fileID: 21300000, guid: d1523ed8a6d7a344b875dfdc298890f7, type: 2}
+  - id: 10
+    x: 32
+    y: 128
+    width: 32
+    height: 32
+    xOffset: 0
+    yOffset: 30
+    xAdvance: 32
+    name: img_text_icons_10
+    hashCode: 510846584
+    pivot: {x: 0, y: 32}
+    scale: 1
+    sprite: {fileID: 21300000, guid: 2fabac1b56bced04ab29a6c29c103cf1, type: 2}
+  - id: 11
+    x: 0
+    y: 96
+    width: 32
+    height: 32
+    xOffset: 0
+    yOffset: 30
+    xAdvance: 32
+    name: img_text_icons_11
+    hashCode: 510846585
+    pivot: {x: 0, y: 32}
+    scale: 1
+    sprite: {fileID: 21300000, guid: f05586dceced76748ab900518c859f65, type: 2}
+  - id: 12
+    x: 32
+    y: 96
+    width: 32
+    height: 32
+    xOffset: 0
+    yOffset: 30
+    xAdvance: 32
+    name: img_text_icons_12
+    hashCode: 510846586
+    pivot: {x: 0, y: 32}
+    scale: 1
+    sprite: {fileID: 21300000, guid: a64f8e71b6b55db4482344f6523a3fbc, type: 2}
+  - id: 13
+    x: 0
+    y: 64
+    width: 32
+    height: 32
+    xOffset: 0
+    yOffset: 30
+    xAdvance: 32
+    name: img_text_icons_13
+    hashCode: 510846587
+    pivot: {x: 0, y: 32}
+    scale: 1
+    sprite: {fileID: 21300000, guid: 6d76f08468bc5a549bc181279d7ded9b, type: 2}
+  - id: 14
+    x: 32
+    y: 64
+    width: 32
+    height: 32
+    xOffset: 0
+    yOffset: 30
+    xAdvance: 32
+    name: img_text_icons_14
+    hashCode: 510846588
+    pivot: {x: 0, y: 32}
+    scale: 1
+    sprite: {fileID: 21300000, guid: 387e997f73281b142acd075197e05bc9, type: 2}
+  - id: 15
+    x: 0
+    y: 32
+    width: 32
+    height: 32
+    xOffset: 0
+    yOffset: 30
+    xAdvance: 32
+    name: img_text_icons_15
+    hashCode: 510846589
+    pivot: {x: 0, y: 32}
+    scale: 1
+    sprite: {fileID: 21300000, guid: e5a8128f266f6d743ae78d4c03f8f22f, type: 2}
+  - id: 16
+    x: 32
+    y: 32
+    width: 32
+    height: 32
+    xOffset: 0
+    yOffset: 30
+    xAdvance: 32
+    name: img_text_icons_16
+    hashCode: 510846590
+    pivot: {x: 0, y: 32}
+    scale: 1
+    sprite: {fileID: 21300000, guid: f370237c08c27da4abb9c1406183d92a, type: 2}
+  - id: 17
+    x: 0
+    y: 0
+    width: 32
+    height: 32
+    xOffset: 0
+    yOffset: 30
+    xAdvance: 32
+    name: img_text_icons_17
+    hashCode: 510846591
+    pivot: {x: 0, y: 32}
+    scale: 1
+    sprite: {fileID: 21300000, guid: 7c0cd5f8f911e0c469cc7c66fbf30f6c, type: 2}
+  - id: 18
+    x: 32
+    y: 0
+    width: 32
+    height: 32
+    xOffset: 0
+    yOffset: 30
+    xAdvance: 32
+    name: img_text_icons_18
+    hashCode: 510846576
+    pivot: {x: 0, y: 32}
+    scale: 1
+    sprite: {fileID: 21300000, guid: e748e3a61abc3124d904854c9cc5ddbc, type: 2}
